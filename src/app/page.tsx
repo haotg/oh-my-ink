@@ -1,5 +1,3 @@
-import InstallPrompt from "@/app/InstallPrompt";
-import PushNotificationManager from "@/app/PushNotificationManager";
 import { Metadata } from "next";
 import Link from "next/link";
 
@@ -23,8 +21,6 @@ export default function Home() {
           </p>
         </div>
       </Link>
-      <PushNotificationManager />
-      <InstallPrompt />
     </>
   );
 }
