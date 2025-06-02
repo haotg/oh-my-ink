@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev --turbopack --experimental-https",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -12,6 +12,7 @@
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.13",
     "@radix-ui/react-slot": "^1.2.2",
+    "@types/web-push": "^3.6.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.11.0",
@@ -22,6 +23,7 @@
     "sass": "^1.88.0",
     "slugify": "^1.6.6",
     "tailwind-merge": "^3.3.0",
+    "web-push": "^3.6.7",
     "zustand": "^5.0.4"
   },
   "devDependencies": {
